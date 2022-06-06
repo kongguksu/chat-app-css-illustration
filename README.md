@@ -139,6 +139,8 @@ body::before {
 
 ### Continued development
 
+Edited: Solved the issue with the flashing scrollbar that appears on initial load while animation is happening. I put `overflow-y: scroll` on main as well as on html. By removing it from main in media queries, the flashing scrollbar disappeared as well as the weird looking angled shadow in the smaller browsers.
+
 In the process of adding animation, I noticed that a scrollbar appears on the right side of the animated elements when the screen size is smaller and I'm trying to search how to get rid of it, but I'm having a bit of difficulty figuring that out. I will continue to search for ways to fix this.
 
 ### Useful resources
